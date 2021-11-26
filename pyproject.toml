@@ -1,0 +1,14 @@
+
+[tool.pyflow]
+name = "anagram"
+py_version = "3.8"
+version = "1.0"
+authors = ["Brandon Corfman <bcorfman@fastmail.fm>"]
+
+[tool.pyflow.scripts]
+
+[tool.pyflow.dependencies]
+collections_extended = "^2.0.0"
+
+[tool.pyflow.dev-dependencies]
+

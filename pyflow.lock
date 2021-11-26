@@ -1,0 +1,8 @@
+[[package]]
+id = 1
+name = "collections-extended"
+version = "2.0.0"
+source = "pypi+https://pypi.org/pypi/collections-extended/2.0.0/json"
+dependencies = []
+
+[metadata]
