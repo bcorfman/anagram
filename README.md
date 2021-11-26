@@ -6,4 +6,4 @@ A solution to the kata at https://codingdojo.org/kata/Anagram/
 * From a command prompt in the project directory, type `pyflow install` and then `pyflow anagram.py`.
 
 ## Running the tests
-* From a command prompt, type `pytest` inside the project folder.
+* From a command prompt, type `pyflow pytest` inside the project folder.
