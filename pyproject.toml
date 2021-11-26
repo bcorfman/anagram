@@ -11,4 +11,5 @@ authors = ["Brandon Corfman <bcorfman@fastmail.fm>"]
 collections_extended = "^2.0.0"
 
 [tool.pyflow.dev-dependencies]
+pytest = "^6.2.5"
 

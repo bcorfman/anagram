@@ -1,8 +1,64 @@
 [[package]]
+id = 2
+name = "pytest"
+version = "6.2.5"
+source = "pypi+https://pypi.org/pypi/pytest/6.2.5/json"
+dependencies = ["toml 0.10.2 pypi+https://pypi.org/pypi/toml/0.10.2/json", "py 1.11.0 pypi+https://pypi.org/pypi/py/1.11.0/json", "pluggy 1.0.0 pypi+https://pypi.org/pypi/pluggy/1.0.0/json", "packaging 21.3 pypi+https://pypi.org/pypi/packaging/21.3/json", "iniconfig 1.1.1 pypi+https://pypi.org/pypi/iniconfig/1.1.1/json", "attrs 21.2.0 pypi+https://pypi.org/pypi/attrs/21.2.0/json"]
+
+[[package]]
+id = 3
+name = "toml"
+version = "0.10.2"
+source = "pypi+https://pypi.org/pypi/toml/0.10.2/json"
+dependencies = []
+
+[[package]]
+id = 4
+name = "py"
+version = "1.11.0"
+source = "pypi+https://pypi.org/pypi/py/1.11.0/json"
+dependencies = []
+
+[[package]]
+id = 7
+name = "pyparsing"
+version = "3.0.6"
+source = "pypi+https://pypi.org/pypi/pyparsing/3.0.6/json"
+dependencies = []
+
+[[package]]
 id = 1
 name = "collections-extended"
 version = "2.0.0"
 source = "pypi+https://pypi.org/pypi/collections-extended/2.0.0/json"
+dependencies = []
+
+[[package]]
+id = 5
+name = "pluggy"
+version = "1.0.0"
+source = "pypi+https://pypi.org/pypi/pluggy/1.0.0/json"
+dependencies = []
+
+[[package]]
+id = 6
+name = "packaging"
+version = "21.3"
+source = "pypi+https://pypi.org/pypi/packaging/21.3/json"
+dependencies = ["pyparsing 3.0.6 pypi+https://pypi.org/pypi/pyparsing/3.0.6/json"]
+
+[[package]]
+id = 8
+name = "iniconfig"
+version = "1.1.1"
+source = "pypi+https://pypi.org/pypi/iniconfig/1.1.1/json"
+dependencies = []
+
+[[package]]
+id = 9
+name = "attrs"
+version = "21.2.0"
+source = "pypi+https://pypi.org/pypi/attrs/21.2.0/json"
 dependencies = []
 
 [metadata]
