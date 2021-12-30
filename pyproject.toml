@@ -1,15 +1,27 @@
-
-[tool.pyflow]
-name = "anagram"
-py_version = "3.8"
+[project]
+name = "Anagram"
 version = "1.0"
-authors = ["Brandon Corfman <bcorfman@fastmail.fm>"]
+description = "A solution to the kata at https://codingdojo.org/kata/Anagram/"
+authors = [
+    {name = "Brandon Corfman", email = "bcorfman@fastmail.fm"},
+]
+dependencies = [
+    "collections-extended>=2.0.0",
+]
+requires-python = ">=3.9"
+license = {text = "MIT"}
 
-[tool.pyflow.scripts]
+[project.urls]
+homepage = "https://github.com/bcorfman/anagram"
 
-[tool.pyflow.dependencies]
-collections_extended = "^2.0.0"
+[project.optional-dependencies]
+[tool]
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=6.2.5",
+]
 
-[tool.pyflow.dev-dependencies]
-pytest = "^6.2.5"
-
+[build-system]
+requires = ["pdm-pep517"]
+build-backend = "pdm.pep517.api"
