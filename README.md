@@ -1,5 +1,8 @@
 # anagram
 A solution to the kata at https://codingdojo.org/kata/Anagram/
+<p align="center">
+  <img width="800" src="https://cdn.rawgit.com/bcorfman/anagram/main/cast.svg">
+</p>
 
 ## Prerequisites
 * Python 3.7 or higher on your system.
