@@ -7,8 +7,11 @@ __pypackages__/
 *.pyc
 *~
 */.mypy_cache/
+.vscode/
 .DS_Store
 
 # Project ignores
 .idea/
 .pdm.toml
+.python-version
+
